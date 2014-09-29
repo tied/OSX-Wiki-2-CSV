@@ -351,7 +351,7 @@ done
 
 ## TAR Files and creating symbolic link
 cd ${DATATMP}
-echo -e "\nCeating tar file ${DATADIR}/${DATANAME}.gz"
+echo -e "\nCeating tar file ${EXPORT_PATH}/${DATANAME}.gz"
 tar -czf ${EXPORT_PATH}/${DATANAME}.gz ${DATANAME}
 [ $? -ne 0 ] && error "Error when trying to create ${EXPORT_PATH}/${DATANAME}.gz\n"
 cd ${EXPORT_PATH}

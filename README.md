@@ -34,7 +34,6 @@ And prints help:
                  [-d <number of daily exports>] [-w <number of weekly exports>]
                  [-e <email report option>] [-E <email address>] [-j <log file>]
 
-	-h:                              prints this help then exit
 
 ##### Mandatory options:
 
