@@ -58,8 +58,8 @@ function help () {
     echo -e "                 [-e <email report option>] [-E <email address>] [-j <log file>]"
     echo -e "\nMandatory options:"
     echo -e "\t-p <url prefix>:                   the prefix to append to generated links, without spaces,"
-    echo -e "\t                                   (i.e.: 'http://my-server.example.com/groups/wiki/')."
-    echo -e "\t-b <export path>:                  the full path of your backup directory (i.e.: '/Users/Shared/backupWikiServer')."
+    echo -e "\t                                   (e.g.: 'http://my-server.example.com/groups/wiki/')."
+    echo -e "\t-b <export path>:                  the full path of your backup directory (e.g.: '/Users/Shared/backupWikiServer')."
     echo -e "\nOptional options:"
     echo -e "\t-h:                                prints this help then exit."
     echo -e "\t-f <path of collaboration files>:  the full path of your OS X Server collaboration files,"
@@ -72,7 +72,7 @@ function help () {
     echo -e "\t                                   default: '${EMAIL_REPORT}'."
     echo -e "\t-E <email address>:                email address to send the report, must be filled if '-e forcemail' or '-e onerror' options is used."
     echo -e "\t-j <log file>:                     enables logging instead of standard output. Specify an argument for the full path to the log file"
-    echo -e "\t                                   (i.e.: '$LOG') or use 'default' ($LOG)."
+    echo -e "\t                                   (e.g.: '$LOG') or use 'default' ($LOG)."
     exit 0
 }
 
